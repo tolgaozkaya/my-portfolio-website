@@ -8,7 +8,7 @@ namespace WebProject.Models
         public bool authentication(string username, string password)
 
         {
-            if (username == "tolga" && password == "123")
+            if (username == "tolga" && password == "mypassword")
             {
                 return true;
             }

@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{9EBF6D35-D0FF-4CCD-BF19-BEB5674CB159}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebProject/wwwroot/js/Login.js">
+    <Files>
+      <File FileName="WebProject/wwwroot/css/about.css" />
+      <File FileName="WebProject/Views/About/Index.cshtml" />
+      <File FileName="WebProject/Views/Home/Index.cshtml" />
+      <File FileName="WebProject/wwwroot/css/home.css" />
+      <File FileName="WebProject/wwwroot/css/login.css" />
+      <File FileName="WebProject/wwwroot/css/projects.css" />
+      <File FileName="WebProject/wwwroot/css/contact.css" />
+      <File FileName="WebProject/Views/Projects/Index.cshtml" />
+      <File FileName="WebProject/Views/Login/Index.cshtml" />
+      <File FileName="WebProject/Views/Contact/Index.cshtml" />
+      <File FileName="WebProject/Views/Home/Privacy.cshtml" />
+      <File FileName="WebProject/Controllers/ContactController.cs" />
+      <File FileName="WebProject/Controllers/BaseController.cs" />
+      <File FileName="WebProject/Views/Shared/_Layout.cshtml" />
+      <File FileName="WebProject/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="WebProject/Models/Project.cs" />
+      <File FileName="WebProject/Controllers/LoginController.cs" />
+      <File FileName="WebProject/Models/Authentication.cs" />
+      <File FileName="WebProject/Controllers/ProjectsController.cs" />
+      <File FileName="WebProject/Controllers/AboutController.cs" />
+      <File FileName="WebProject/Controllers/HomeController.cs" />
+      <File FileName="WebProject/wwwroot/js/Login.js" Line="1" Column="1" />
+      <File FileName="WebProject/wwwroot/js/site.js" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebProject" expanded="True">
+            <Node name="WebProject" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="Login.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

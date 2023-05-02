@@ -1,0 +1,38 @@
+﻿@{
+    
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-km+Iy5E5cte3q1bQ2qxS+jSlnnI+JmwzLPcqzfNFF1L4IK+OhLxKLz0ACatS8j2z1i3k60lfD/JlI4l4tR46Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="@Url.Content("~/css/login.css")" />
+
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="#" method="POST">
+            <h1>Login</h1>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <i class="fas fa-lock"></i>
+            </div>
+            <button class="btn" type="submit">Login</button>
+            @ViewBag.mesaj
+            <p style="background-color:red;">@TempData["error"]</p>
+        </form>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>
